@@ -1,0 +1,48 @@
+
+.about{
+
+	width: 100%;
+	color:#000;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+	background-image: url(http://g-style.by/wp-content/themes/g-style/img/about-company-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+	.col-about{
+		position: relative;
+	    height: 80px;
+	    margin-bottom: 2rem;
+	    padding: 10px 20px 10px 70px;
+	    background: #fff;
+	    -webkit-box-shadow: 0 0.15rem 0.45rem rgba(0,0,0,0.06);
+	    -moz-box-shadow: 0 .15rem .45rem rgba(0,0,0,0.06);
+	    box-shadow: 0 0.15rem 0.45rem rgba(0,0,0,0.06);
+	    -webkit-transition: all 350ms ease-in-out;
+	    transition: all 350ms ease-in-out;
+
+		.corn{
+			 position: absolute;
+		    left: -38px;
+		    top: -38px;
+		    transform: scale(0.3);
+		}
+
+		p{
+		    margin-top: 12px;
+		    margin-left: 15px;
+		    font-size: 15px;
+		}
+
+		.about-icon{
+		    position: absolute;
+		    top: 20px;
+		    left: 30px;
+		    font-size: 3rem;
+		    color: #fcac45;
+		}
+
+	}
+}

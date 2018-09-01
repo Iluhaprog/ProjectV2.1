@@ -1,0 +1,79 @@
+.treners{
+
+	color:#fff;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background: url(../img/bg-treners.jpg);
+	background-position: center ;
+    background-repeat: no-repeat ;
+    -webkit-background-size: cover;
+    background-size: cover ;
+
+	.trener-container {
+		
+		.trener-card{
+
+			margin-left: 5px;
+			margin-right: 5px;
+			background: #fff;
+
+			.info-of-trener{
+
+				padding:10px;
+				color:#000;
+				text-align: center;
+
+			}
+
+			.line-card{
+
+				width: 80%;
+				height: 1.5px;
+				margin-left: calc(50% - 40%);
+				background: #fcac45;
+				margin-top: 5px;
+				margin-bottom: 5px;
+
+			}
+
+			.descript-trener{
+
+				font-size: 14px;
+
+			}
+		}
+		.owl-nav{
+
+			.owl-prev{
+
+				position: absolute !important;
+				top: 48%;
+				left: -5%;
+
+				span{
+
+					font-size: 3rem;
+				}
+
+			}
+
+			.owl-next{
+
+				position: absolute !important;
+				top: 48%;
+				right: -5%;
+
+				span{
+
+					font-size: 3rem;
+				}
+
+			}
+			.owl-next:hover,.owl-prev:hover,
+			.owl-next:focus,.owl-prev:focus{
+				background: none !important;
+				outline: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,80 @@
+.hww{
+
+	color:#fff;
+	background: url(../img/hww-bg.jpg);
+	background-position: center ;
+    background-repeat: no-repeat ;
+    -webkit-background-size: cover;
+    background-size: cover ;
+
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	.hww-container {
+
+		.item-hww{
+
+			position: relative;
+			display: flex;
+			justify-content: center;
+
+			.round-block{
+
+				position: absolute;
+				padding-left:25px;
+				padding-right: 25px;
+				padding-top: 22px;
+				padding-bottom: 20px;
+			    border-radius: 50%;
+			    background-color: #fff;
+			    color: #262626;
+			    transition: 0.4s;
+
+				span{
+					font-size: 3.4rem;
+				}
+
+			}
+
+			.round-block:hover{
+
+				transform: rotate(15deg);
+
+			}
+
+			.spr-next{
+
+				position: absolute;
+			    width: 163px;
+			    height: 43px;
+			    top: 0px;
+			    left: 210px;
+			    background: url(../img/spr-next.png);
+			    background-position: -10px -53px;
+			    text-align: left;
+			    transform: scale(0.8);
+
+			}
+			.up{
+
+				top: 50px;
+			    left: 210px;
+				background-position: -10px 0px;
+
+			}
+
+			.descript-item{
+
+				margin-top: 130px;
+
+				p{
+
+					text-align: center;
+					font-weight: bold;
+					font-size: 15px;
+
+				}
+			}
+		}
+	}
+}

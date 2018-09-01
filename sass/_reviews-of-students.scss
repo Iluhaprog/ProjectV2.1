@@ -1,0 +1,76 @@
+.reviews-of-students{
+	color:#000;
+	background: url(../img/bg-photos.png);
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	.title-block{
+
+		font-weight: 400;
+		text-transform: uppercase;
+
+	}
+
+	.owl3 {
+
+		.ow3{
+			color:#262626;
+		}
+
+		.owl-nav{
+
+			.owl-prev{
+				position: absolute !important;
+				left:-5%;
+				top: 45%;
+				font-size: 2rem;
+			}
+
+			.owl-next{
+				position: absolute !important;
+				right:-5%;
+				top: 45%;
+				font-size: 2rem;
+			}
+
+		}
+
+		.owl-item {
+
+			.review-student{
+
+			    background: #fff;
+			    padding: 3rem 6rem 5rem;
+			    margin: 0 20px 0;
+				
+				img{
+					width: 120px;
+					margin-left: calc(50% - 60px);
+					border-radius: 50%;
+
+				}
+
+				.name-student{
+
+					font-weight: 400;
+					width: 80%;
+					text-align: center;
+					border-bottom: 1.5px solid  #fcac45;
+					margin-left: 10%;
+					margin-top: 1.5rem;
+
+				}
+
+				.review{
+
+					text-align: center;
+					margin-top: 1.5rem;
+					width: 87%;
+					margin-left: calc(50% - 87%/2);
+					font-size: 15px;
+
+				}
+			}
+		}
+	}
+}

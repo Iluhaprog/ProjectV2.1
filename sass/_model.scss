@@ -1,0 +1,45 @@
+.model{
+
+	color: #fff;
+	background: url(../img/model.jpg);
+	background-position: center ;
+    background-repeat: no-repeat ;
+    -webkit-background-size: cover;
+    background-size: cover ;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+
+	.model-container {
+
+		.button-form{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			 margin-top: 3rem;
+		}
+
+		.button-get-form-for-model{
+
+			display: inline-block;
+		    padding: 0px 36px;
+		    border: 1px solid #fcac45;
+		    background-color: #2a2a2a;
+		    font-size: 1rem;
+		    color: #fff;
+		    cursor: pointer;
+		    -webkit-transition: all 350ms ease-in-out;
+		    transition: all 350ms ease-in-out;
+
+			p{
+				margin-top: 10px;
+			}
+		}
+
+		.button-get-form-for-model:hover{
+			background: #fff;
+			color:#0b0b0b;	
+		}
+	}
+
+}

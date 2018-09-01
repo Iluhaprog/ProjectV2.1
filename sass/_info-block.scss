@@ -1,0 +1,62 @@
+.info-block{
+
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	z-index: 1000;
+
+	.info{
+
+		position: fixed !important;
+		padding: 0;
+		top:18vh;
+		background: #fff;
+		display: none;
+		opacity: 0;
+		transition: all 0.4s ease;
+		z-index: 1000;
+
+		.header-form{
+			position: absolute;
+			opacity: 0;
+			top: 0;
+		}
+		.text{
+
+			margin-top: 40px;
+			padding: 3rem 2rem;
+			background: #fff;
+			overflow-y: auto;
+			font-size: 17px;
+			opacity: 0;
+			height: 55vh;
+
+			#in1,
+			#in2,
+			#in3,
+			#in4{
+
+				display: none;
+				opacity: 0;
+
+			}
+
+			div {
+				.descript{
+
+					font-size: 15px;
+					text-align: left;
+
+				}
+
+				.price{
+					text-align: center;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
